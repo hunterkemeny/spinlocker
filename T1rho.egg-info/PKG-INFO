@@ -1,3 +1,29 @@
+Metadata-Version: 2.1
+Name: T1rho
+Version: 0.1.0
+Summary: : T1rho experimentt tt
+Home-page: https://github.com/Hunter-Kemeny/T1rho
+Author: Hunter Kemeny
+Author-email: hunter.kemeny@ibm.com
+License: Apache 2.0
+Keywords: qiskit experiments
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
 # T1rho
 
 [![License](https://img.shields.io/github/license/Qiskit/qiskit-experiments.svg?style=popout-square)](https://opensource.org/licenses/Apache-2.0)

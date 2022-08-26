@@ -1,0 +1,30 @@
+time: 2022-08-25 15:51:29.651208Z
+tags: worker-0
+test: test.test_package.TestPackage.test_package_import
+time: 2022-08-25 15:51:29.658040Z
+failure: test.test_package.TestPackage.test_package_import [ multipart
+Content-Type: text/x-traceback;charset=utf8
+traceback
+43D
+Traceback (most recent call last):
+  File "/Users/hunterkemeny/Desktop/spin-locking/test/test_package.py", line 20, in test_package_import
+    import spinlocker
+  File "/Users/hunterkemeny/Desktop/spin-locking/spinlocker/__init__.py", line 20, in <module>
+    from .source import T1rho
+  File "/Users/hunterkemeny/Desktop/spin-locking/spinlocker/source/__init__.py", line 1, in <module>
+    from .t1rho import T1rho
+  File "/Users/hunterkemeny/Desktop/spin-locking/spinlocker/source/t1rho.py", line 18, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hunterkemeny/Desktop/spin-locking/test/test_package.py", line 27, in test_package_import
+    self.fail(f"Failed to import package. Import raised exception {ex}")
+  File "/opt/anaconda3/envs/QiskitDevenv/lib/python3.10/unittest/case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: Failed to import package. Import raised exception No module named 'numpy'
+0
+]
+tags: -worker-0
